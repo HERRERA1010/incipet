@@ -1,0 +1,74 @@
+* {
+    font-family: 'Pathway Gothic One', sans-serif;
+    letter-spacing: 0.5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbarBg {
+    background-color: #3da6af;
+}
+
+.urnas {
+    font-size: 150px;
+}
+
+.vh-50 {
+    height: 50vmin;
+    font-size: 25px;
+}
+
+.textoSizeNav {
+    font-size: 25px;
+}
+
+
+/*FOOTER*/
+
+.footerProps {
+    background-color: #1899a6;
+}
+
+.logoFooter {
+    height: 70px;
+}
+
+footer ul {
+    font-size: 15px;
+}
+
+
+/*MQ*/
+
+@media screen and (min-width: 319px) {
+    .vh-50 {
+        height: 22vmin;
+    }
+    .textoSizeNav {
+        font-size: 20px;
+    }
+    header {
+        background: #1b9ba8;
+        background-image: none;
+    }
+}
+
+@media screen and (min-width: 425px) {
+    header {
+        background: none;
+    }
+    .vh-50 {
+        height: 13vmin;
+    }
+}
+
+@media screen and (min-width: 750px) {
+    header {
+        background: none;
+    }
+    .vh-50 {
+        height: 4vmin;
+    }
+}

@@ -1,0 +1,472 @@
+* {
+    font-family: 'Pathway Gothic One', sans-serif;
+    letter-spacing: 0.5px;
+    margin: 0;
+    padding: 0;
+}
+
+.containerBoton {
+    background-color: #2e6329;
+    border: 1px solid #fff;
+    position: fixed;
+    z-index: 999;
+    border-radius: 50%;
+    bottom: 15px;
+    right: 15px;
+    padding: 10px;
+    transition: ease 0.3s;
+    animation: efect 1.2s infinite;
+}
+
+
+/*Whatsapp button*/
+
+.containerBoton:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.botonW {
+    width: 30px;
+    transition: ease 1s;
+}
+
+@keyframes efect {
+    0% {
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.85);
+    }
+    100% {
+        box-shadow: 0 0 0 25px rgba(0, 0, 0, 0);
+    }
+}
+
+
+/*final whatsapp button*/
+
+
+/*tel button*/
+
+.containerBoton2 {
+    background-color: rgb(10, 156, 241);
+    border: 1px solid #fff;
+    position: fixed;
+    z-index: 999;
+    border-radius: 50%;
+    bottom: 85px;
+    right: 15px;
+    padding: 10px;
+    transition: ease 0.3s;
+    animation: efect 1.2s infinite;
+}
+
+.containerBoton:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.botonT {
+    width: 30px;
+    transition: ease 1s;
+}
+
+@keyframes efect {
+    0% {
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.85);
+    }
+    100% {
+        box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+    }
+}
+
+
+/*final tel button*/
+
+.header {
+    background-image: url(../img/img2.jpg);
+    background-position: bottom;
+    background-size: cover;
+    text-shadow: 0px 0spx 1px #000;
+}
+
+.vh-50 {
+    height: 50vmin;
+    font-size: 25px;
+}
+
+.textoSizeNav {
+    font-size: 25px;
+}
+
+.navbarBg {
+    background-color: #159ba6;
+}
+
+.inciLogo {
+    width: 200px;
+}
+
+.logo-header {
+    margin-top: 10%;
+}
+
+.sectionAll {
+    height: 600px;
+    width: 100%;
+}
+
+.sectionB {
+    background-color: #1899a6;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/*INICIO SECCIONES  */
+
+.titulo {
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.container__section {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-auto-rows: 700px;
+    grid-gap: 50px;
+}
+
+.contentSection {
+    position: relative;
+    margin: 30px auto;
+    margin-top: 150px;
+}
+
+.imgGeneral {
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+    /*border-radius: 10% / 50%;*/
+}
+
+.textoSection2 {
+    height: 200px;
+    width: 90%;
+    font-size: 30px;
+}
+
+.textoSection3 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 40px;
+}
+
+
+/*FINAL SECCIONES*/
+
+.tituloSection {
+    font-size: 35px;
+}
+
+.textoSection {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+/*SECCION 4*/
+
+.preguntasFrecuentes {
+    margin-top: 80px;
+    font-size: 30px;
+}
+
+.card {
+    background-color: transparent !important;
+}
+
+#logoSize1 {
+    height: 350px;
+    display: block;
+    margin: auto;
+}
+
+.liniar-white::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 10px;
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+
+/*URNAS*/
+
+.tituloUrna {
+    border: 1px solid red;
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+/*FINAL URNAS*/
+
+
+/*INICIO CONTACTO*/
+
+.divTitulo {
+    margin-top: 10%;
+}
+
+.tituloContacto {
+    font-size: 40px;
+}
+
+.textoContacto {
+    text-align: center;
+    padding: auto;
+}
+
+.mapaContainer {
+    width: 100%;
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+
+.mapa {
+    display: block;
+    margin: auto;
+    width: 80%;
+    height: 400px;
+}
+
+
+/*FINAL CONTACTO*/
+
+
+/*INICIO CREMATORIO*/
+
+.crematorioTitulo {
+    text-align: center;
+    margin-top: 8%;
+}
+
+.crematorioTexto {
+    text-align: center;
+    padding: 60px;
+    font-size: 25px;
+}
+
+.fotoCrematorio {
+    margin-top: 7%;
+    margin-bottom: 12%;
+    border-radius: 10px 15px;
+}
+
+
+/*FINAL CREMATORIO*/
+
+
+/*FOOTER*/
+
+.footerProps {
+    background-color: #1899a6;
+    width: 100%;
+    bottom: 0;
+    height: 150px;
+}
+
+.logoFooter {
+    margin-top: 20px;
+    height: 70px;
+}
+
+footer ul {
+    font-size: 20px;
+}
+
+
+/*FINAL FOOTER*/
+
+
+/*MQ*/
+
+@media screen and (max-width: 991px) {
+    .textoSection2 {
+        height: 400px;
+        width: 80%;
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .container__section1 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-auto-rows: 200px;
+        padding: 20px;
+        grid-gap: 10px;
+    }
+    .preguntasFrecuentes {
+        margin-top: 20px;
+        font-size: 25px;
+    }
+    .inciLogo {
+        width: 100px;
+    }
+    .textoSection3 {
+        text-align: center;
+        font-size: 30px;
+    }
+    .textoSection2 {
+        height: 400px;
+        width: 80%;
+        font-size: 30px;
+    }
+    .imgGeneral {
+        width: 100%;
+        height: 60%;
+        object-fit: cover;
+        border-radius: 10% / 10%;
+    }
+    .contentSection {
+        position: relative;
+        margin: 30px auto;
+        margin-top: 20px;
+    }
+    .mapaContainer {
+        width: 100%;
+        margin-top: 15%;
+        margin-bottom: 50%;
+    }
+}
+
+@media screen and (max-width: 443px) {
+    .vh-50 {
+        height: 60vmin;
+        font-size: 20px;
+    }
+    .imgGeneral {
+        width: 100%;
+        height: 50%;
+        object-fit: cover;
+    }
+    .container__section1 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-auto-rows: 100px;
+        padding: 20px;
+        grid-gap: 10px;
+    }
+    .preguntasFrecuentes {
+        margin-top: 0px;
+        font-size: 20px;
+    }
+    .inciLogo {
+        width: 70px;
+    }
+    .textoSection2 {
+        height: 400px;
+        width: 80%;
+        font-size: 23px;
+    }
+    .textoSection3 {
+        text-align: center;
+        font-size: 30px;
+        margin-top: 40px;
+    }
+    .contentSection {
+        position: relative;
+        margin: 30px auto;
+        margin-top: 10px;
+    }
+    .fotoCrematorio {
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .vh-50 {
+        height: 75vmin;
+        font-size: 20px;
+    }
+    .inciLogo {
+        width: 100px;
+    }
+    .textoSection2 {
+        height: 500px;
+        width: 80%;
+        font-size: 23px;
+    }
+    .imgGeneral {
+        width: 100%;
+        height: 40%;
+        object-fit: cover;
+    }
+    .textoSection3 {
+        text-align: center;
+        font-size: 28px;
+        margin-top: 30px;
+    }
+    .contentSection {
+        position: relative;
+        margin: 10px auto;
+        margin-top: 30px;
+    }
+    .mapaContainer {
+        width: 100%;
+        margin-top: 15%;
+        margin-bottom: 50%;
+    }
+    .fotoCrematorio {
+        height: 170px;
+    }
+}
+
+@media screen and (max-width: 322px) {
+    .vh-50 {
+        height: 85vmin;
+        font-size: 20px;
+    }
+    .inciLogo {
+        width: 80px;
+    }
+    .textoSection2 {
+        height: 450px;
+        width: 80%;
+        font-size: 19px;
+    }
+    .preguntasFrecuentes {
+        margin-top: 0px;
+        font-size: 20px;
+    }
+    .textoSection3 {
+        text-align: center;
+        font-size: 25px;
+        margin-top: 30px;
+    }
+    .textoSizeNav {
+        font-size: 20px;
+    }
+    .tituloContacto {
+        font-size: 20px;
+    }
+    .mapaContainer {
+        width: 100%;
+        margin-bottom: 90%;
+    }
+    .fotoCrematorio {
+        height: 170px;
+    }
+    .crematorioTexto {
+        text-align: center;
+        padding: 40px;
+        font-size: 20px;
+    }
+}
