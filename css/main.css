@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
 }
+/*Whatsapp button*/
 
 .containerBoton {
     background-color: #2e6329;
@@ -17,9 +18,6 @@
     transition: ease 0.3s;
     animation: efect 1.2s infinite;
 }
-
-
-/*Whatsapp button*/
 
 .containerBoton:hover {
     transform: scale(1.1);
@@ -128,6 +126,7 @@
 .titulo {
     font-size: 40px;
     margin-top: 20px;
+    text-shadow: 0px 0px 5px  #cfcfcf;
 }
 
 .container__section {
@@ -231,6 +230,7 @@
 .textoContacto {
     text-align: center;
     padding: auto;
+    font-size: 30px;
 }
 
 .mapaContainer {
@@ -352,6 +352,12 @@ footer ul {
         height: 60vmin;
         font-size: 20px;
     }
+
+    .textoSizeNav a{
+        font-size: 20px !important;
+        padding-right: 10px !important;
+    }
+
     .imgGeneral {
         width: 100%;
         height: 50%;
@@ -394,8 +400,14 @@ footer ul {
 @media screen and (max-width: 375px) {
     .vh-50 {
         height: 75vmin;
-        font-size: 20px;
+        
     }
+
+    .textoSizeNav a{
+        font-size: 17px !important;
+        padding-right: 2px !important;
+    }
+
     .inciLogo {
         width: 100px;
     }
