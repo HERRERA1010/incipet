@@ -124,9 +124,8 @@
 /*INICIO SECCIONES  */
 
 .titulo {
-    font-size: 40px;
+    font-size: 60px;
     margin-top: 20px;
-    text-shadow: 0px 0px 5px  #cfcfcf;
 }
 
 .container__section {
@@ -161,21 +160,11 @@
     margin-top: 40px;
 }
 
-
-/*FINAL SECCIONES*/
-
-.tituloSection {
-    font-size: 35px;
-}
-
 .textoSection {
-    font-size: 25px;
+    font-size: 35px;
     text-align: center;
     margin-top: 20px;
 }
-
-
-/*SECCION 4*/
 
 .preguntasFrecuentes {
     margin-top: 80px;
