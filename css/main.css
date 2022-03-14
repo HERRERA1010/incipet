@@ -113,11 +113,16 @@
 }
 
 .sectionB {
-    background-color: #1899a6;
+    
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.bgc{
+    background-color: #159ba6 !important;
+    padding: 0;
 }
 
 
@@ -131,7 +136,7 @@
 .container__section {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    grid-auto-rows: 700px;
+    grid-auto-rows: auto;
     grid-gap: 50px;
 }
 

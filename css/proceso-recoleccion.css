@@ -1,4 +1,13 @@
-.icono-truck{
-    width: 50%;
-    height: 30px ;
+
+.fa-solid{
+    color: #fff;
+    font-size: 70px;
+}
+
+.card-title{
+    color: #fff;
+}
+
+.card-text{
+    color: #fff;
 }
