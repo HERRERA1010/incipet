@@ -389,6 +389,12 @@ footer ul {
     .fotoCrematorio {
         height: 200px;
     }
+
+    .textoSection {
+        font-size: 25px;
+        text-align: center;
+        margin-top: 20px;
+    }
 }
 
 @media screen and (max-width: 375px) {
