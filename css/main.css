@@ -131,26 +131,17 @@
 .titulo {
     font-size: 60px;
     margin-top: 20px;
+    text-align: center;
+    color: orange;
 }
 
-.container__section {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-auto-rows: auto;
-    grid-gap: 50px;
-}
 
-.contentSection {
-    position: relative;
-    margin: 30px auto;
-    margin-top: 150px;
-}
 
 .imgGeneral {
     width: 100%;
     height: 90%;
     object-fit: cover;
-    /*border-radius: 10% / 50%;*/
+    border-radius: 25% 10%;
 }
 
 .textoSection2 {
@@ -176,9 +167,7 @@
     font-size: 30px;
 }
 
-.card {
-    background-color: transparent !important;
-}
+
 
 #logoSize1 {
     height: 350px;

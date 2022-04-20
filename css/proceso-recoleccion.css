@@ -1,17 +1,30 @@
 
-.fa-solid{
-    color: #fff;
-    font-size: 70px;
-    padding: 25px;
+
+
+.contenedor-grid {
+margin: 40px 40px auto;
+
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+grid-auto-rows: 20px 4 ;
+grid-gap: 10px;
+
+
 }
 
-.card-title{
+.grid-secciones{
+    background-color: #159ba6;
     color: #fff;
-    font-size: 35px;
+    text-align: center;
 }
 
-.card-text{
-    color: #fff;
-    font-size: 25px;
+.grid-secciones > p{
+    font-size: 22px;
+    margin: 10px;
+ 
 }
 
+.fa-phone, .fa-truck, .fa-fire, .fa-box-archive {
+    font-size: 40px;
+    margin: 20px;
+}
