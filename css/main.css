@@ -241,6 +241,13 @@
     border-radius: 10px 15px;
 }
 
+@media screen and (max-width: 991px) {
+    .textoSection2 {
+        height: 400px;
+        width: 80%;
+        font-size: 30px;
+    }
+}
 
 /*FINAL CREMATORIO*/
 
