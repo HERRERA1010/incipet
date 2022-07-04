@@ -20,11 +20,12 @@ grid-gap: 10px;
 
 .grid-secciones > p{
     font-size: 22px;
-    margin: 10px;
+    margin: 5px;
+    padding: 10px;
  
 }
 
 .fa-phone, .fa-truck, .fa-fire, .fa-box-archive {
-    font-size: 40px;
-    margin: 20px;
+    font-size: 60px;
+    margin: 30px;
 }

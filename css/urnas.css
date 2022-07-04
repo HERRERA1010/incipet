@@ -12,7 +12,7 @@ a {
 }
 
 .urnas {
-    font-size: 150px;
+    font-size: 60px;
 }
 
 .vh-50 {
@@ -22,6 +22,10 @@ a {
 
 .textoSizeNav {
     font-size: 25px;
+}
+
+.urnasTexto{
+    font-size: 22px;
 }
 
 

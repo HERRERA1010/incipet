@@ -88,11 +88,11 @@
 
 .vh-50 {
     height: 50vmin;
-    font-size: 25px;
+    font-size: 22px;
 }
 
 .textoSizeNav {
-    font-size: 25px;
+    font-size: 22px;
 }
 
 .navbarBg {
@@ -144,15 +144,10 @@
     border-radius: 25% 10%;
 }
 
-.textoSection2 {
-    height: 200px;
-    width: 90%;
-    font-size: 30px;
-}
 
 .textoSection3 {
     text-align: center;
-    font-size: 30px;
+    font-size: 22px;
     margin-top: 40px;
 }
 
@@ -164,7 +159,7 @@
 
 .preguntasFrecuentes {
     margin-top: 80px;
-    font-size: 30px;
+    font-size: 22px;
 }
 
 
@@ -202,7 +197,7 @@
 .textoContacto {
     text-align: center;
     padding: auto;
-    font-size: 30px;
+    font-size: 22px;
 }
 
 .mapaContainer {
@@ -232,7 +227,7 @@
 .crematorioTexto {
     text-align: center;
     padding: 60px;
-    font-size: 25px;
+    font-size: 22px;
 }
 
 .fotoCrematorio {
