@@ -12,7 +12,7 @@
     position: fixed;
     z-index: 999;
     border-radius: 50%;
-    bottom: 15px;
+    bottom: 150px;
     right: 15px;
     padding: 10px;
     transition: ease 0.3s;
@@ -50,7 +50,7 @@
     position: fixed;
     z-index: 999;
     border-radius: 50%;
-    bottom: 85px;
+    bottom: 217px;
     right: 15px;
     padding: 10px;
     transition: ease 0.3s;
@@ -275,7 +275,7 @@
 }
 
 footer ul {
-    font-size: 20px;
+    font-size: 15px;
 }
 
 
