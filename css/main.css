@@ -137,7 +137,7 @@
 
 .titulo-negative {
     font-size: 60px;
-    margin: 20px auto ;
+    margin: 40px auto;
     text-align: center;
     color:black;
 }
@@ -160,7 +160,7 @@
 }
 
 .textoSection {
-    font-size: 35px;
+    font-size: 22px;
     text-align: center;
     margin-top: 20px;
 }
@@ -295,6 +295,12 @@ footer ul {
 }
 
 @media screen and (max-width: 769px) {
+
+    .titulo-negative {
+        font-size: 40px;
+        
+    }
+
     .container__section1 {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -335,6 +341,14 @@ footer ul {
         margin-top: 15%;
         margin-bottom: 50%;
     }
+}
+
+@media screen and (max-width: 575px) {
+
+    .footerProps {
+        height: 350px;
+    }
+
 }
 
 @media screen and (max-width: 443px) {
@@ -392,6 +406,14 @@ footer ul {
         text-align: center;
         margin-top: 20px;
     }
+
+    .footerProps {
+        
+        height: 350px;
+        
+    }
+
+
 }
 
 @media screen and (max-width: 375px) {
@@ -437,9 +459,18 @@ footer ul {
     .fotoCrematorio {
         height: 170px;
     }
+
+ 
 }
 
 @media screen and (max-width: 322px) {
+
+    .titulo-negative {
+        font-size: 40px;
+        margin-bottom: 5px;
+        
+    }
+
     .vh-50 {
         height: 85vmin;
         
