@@ -1,6 +1,6 @@
 * {
     font-family: 'Pathway Gothic One', sans-serif;
-    letter-spacing: 0.5px;
+    
     margin: 0;
     padding: 0;
 }
@@ -129,32 +129,27 @@
 /*INICIO SECCIONES  */
 
 .titulo {
-    font-size: 60px;
-    margin: 20px auto ;
+    font-size: 40px;
+    margin: 60px auto ;
     text-align: center;
-    color: orange;
+    
+    
 }
 
 .titulo-negative {
-    font-size: 60px;
-    margin: 40px auto;
+    font-size: 40px;
+    margin: 60px auto;
     text-align: center;
     color:black;
 }
 
 
 
-.imgGeneral {
-    width: 100%;
-    height: 90%;
-    object-fit: cover;
-    border-radius: 25% 10%;
-    margin: 50px auto;
-}
+
 
 
 .textoSection3 {
-    text-align: center;
+    text-align: justify;
     font-size: 22px;
     margin-top: 40px;
 }
@@ -168,6 +163,7 @@
 .preguntasFrecuentes {
     margin-top: 120px;
     font-size: 22px;
+    text-align: justify;
 }
 
 .pading-faq{
@@ -233,49 +229,39 @@
 
 .crematorioTitulo {
     text-align: center;
-    margin-top: 8%;
+    margin-top: 15%;
+    font-size: 40px;
+
 }
 
 .crematorioTexto {
-    text-align: center;
     padding: 60px;
     font-size: 22px;
+    text-align: justify;
+    margin-bottom: 10px;
 }
 
 .fotoCrematorio {
-    margin-top: 7%;
-    margin-bottom: 12%;
     border-radius: 10px 15px;
+    margin: 50px auto;
+    
 }
 
-@media screen and (max-width: 991px) {
-    .textoSection2 {
-        height: 400px;
-        width: 80%;
-        font-size: 30px;
-    }
-}
-
-/*FINAL CREMATORIO*/
-
-
-/*FOOTER*/
+/*INICIO FOOTER*/
 
 .footerProps {
     background-color: #1899a6;
     width: 100%;
     bottom: 0;
-    height: 150px;
+    height: 200px;
+    margin-top: 250px;
     
 }
 
-.logoFooter {
-    margin-top: 20px;
-    height: 70px;
-}
+
 
 footer ul {
-    font-size: 15px;
+    font-size: 22px;
 }
 
 
@@ -283,6 +269,8 @@ footer ul {
 
 
 /*MQ*/
+
+
 
 @media screen and (max-width: 991px) {
     .textoSection2 {
@@ -317,7 +305,7 @@ footer ul {
         margin-top: 20%;
     }
     .textoSection3 {
-        text-align: center;
+        
         font-size: 30px;
     }
     .textoSection2 {
@@ -465,11 +453,7 @@ footer ul {
 
 @media screen and (max-width: 322px) {
 
-    .titulo-negative {
-        font-size: 40px;
-        margin-bottom: 5px;
-        
-    }
+
 
     .vh-50 {
         height: 85vmin;
@@ -482,33 +466,45 @@ footer ul {
     .textoSection2 {
         height: 450px;
         width: 80%;
-        font-size: 19px;
+        font-size: 22px;
     }
     .preguntasFrecuentes {
         margin-top: 0px;
         font-size: 20px;
+        text-align: justify;
     }
     .textoSection3 {
         text-align: center;
-        font-size: 25px;
+        font-size: 22px;
         margin-top: 30px;
     }
     .textoSizeNav {
         font-size: 20px;
     }
     .tituloContacto {
-        font-size: 20px;
+        margin-top: 60px;
+        font-size: 40px;
     }
     .mapaContainer {
         width: 100%;
         margin-bottom: 90%;
     }
     .fotoCrematorio {
-        height: 170px;
+        height: 180px;
     }
     .crematorioTexto {
-        text-align: center;
-        padding: 40px;
+        
+        padding: 20px;
+        font-size: 22px;
+        
+    }
+
+    .crematorioTitulo{
+        margin-top: 60px;
+    }
+
+    footer ul {
         font-size: 20px;
     }
+    
 }
